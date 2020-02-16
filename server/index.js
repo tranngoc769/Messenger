@@ -8,6 +8,9 @@ const io = socketio(server);
 io.on('connection',(socket) =>
 {
     console.log("New connection");
+    socket.on('join',({uName,rName},callback)=>
+    {
+    })
     socket.on('disconnect',()=>
     {
         console.log("Leave connection");
