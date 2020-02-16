@@ -10,7 +10,7 @@ io.on('connection',(socket) =>
     console.log("New connection");
     socket.on('disconnect',()=>
     {
-        console.log("User disconnected");
+        console.log("Leave connection");
     })
 });
 // 
