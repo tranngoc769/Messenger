@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 import './Join.css';
 
 export default function SignIn() {
-  const [userName, setUserName] = useState('');
+  const [name, setUserName] = useState('');
   const [room, setRoom] = useState('');
   return (
     <div>
     <div className="body"></div>
 		<div className="grad"></div>
 		<div className="header">
-			<div>Site<span>Random</span></div>
+			<div>Chat<span>Room</span></div>
 		</div>
 		<br></br>
 		<div className="login">
@@ -19,7 +19,7 @@ export default function SignIn() {
            <br /><br />
           <input placeholder="Room" type="text" onChange={(event) => setRoom(event.target.value)} />
           <br />
-          <Link onClick={e => (!userName || !room) ? e.preventDefault() : null} to={`/chat?user=${userName}&room=${room}`}>
+          <Link onClick={e => (!name || !room) ? e.preventDefault() : null} to={`/chat?name=${name}&room=${room}`}>
          <input type="button" value='Join Room'></input>
       </Link>
 		</div>
