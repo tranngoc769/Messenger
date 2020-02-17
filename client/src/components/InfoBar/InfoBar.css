@@ -7,9 +7,13 @@
     height: 60px;
     width: 100%;
   }
-  
+ h1
+ {
+   margin: auto;
+   color: yellow;
+ } 
   .leftInnerContainer {
-    flex: 0.5;
+    flex: 0.9;
     display: flex;
     align-items: center;
     margin-left: 5%;
@@ -18,7 +22,7 @@
   
   .rightInnerContainer {
     display: flex;
-    flex: 0.5;
+    flex: 0.1;
     justify-content: flex-end;
     margin-right: 5%;
   }

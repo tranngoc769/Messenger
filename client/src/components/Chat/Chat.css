@@ -1,4 +1,5 @@
 .outerContainer {
+  	background-image: url(./background.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,13 +8,14 @@
   }
   
   .container {
+    margin: 0px 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background: #FFFFFF;
     border-radius: 8px;
-    height: 60%;
-    width: 35%;
+    height: 90%;
+    width: 60%;
   }
   
   @media (min-width: 320px) and (max-width: 480px) {

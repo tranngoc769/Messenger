@@ -1,16 +1,25 @@
 .textContainer {
   display: flex;
   flex-direction: column;
-  margin-left: 100px;
+  margin-left: 40px;
+  padding-left: 40px;
+  border-left-style: inset;
   color: white;
-  height: 60%;
+  height: 90%;
   justify-content: space-between;
+}
+
+h3
+{
+  font-size: 30px;
 }
 
 .activeContainer {
   display: flex;
-  align-items: center;
-  margin-bottom: 50%;
+    align-items: center;
+    margin-bottom: 50%;
+    border-top-style: double;
+    margin-top: 15px;
 }
 
 .activeItem {
@@ -19,7 +28,7 @@
 }
 
 .activeContainer img {
-  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .textContainer h1 {
